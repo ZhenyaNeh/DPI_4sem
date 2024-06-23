@@ -1,0 +1,392 @@
+:root{
+    --dark-gray: #ABABAB;
+    --black: #000;
+    --medium-aquamarine: #75C9AB;
+   }
+
+header{
+    width: 100%;
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid var(--dark-gray);
+    padding-bottom: 10px;
+    font-family: "San Francisco Text";
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+}
+
+.upper{
+    display: inline;
+    width: 100%;
+}
+
+.lower{
+    display: inline;
+    width: 100%;
+}
+
+.string{
+  display: inline;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: #ABABAB;
+}
+
+.string.title{
+  display: block;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 420;
+  margin: 0;
+  color: #000;
+  
+}
+
+.string.catalog{
+  margin-left: 170px;
+  
+}
+
+.string.search{
+  margin-left: 712px;
+  margin-right: 70px;
+}
+
+.string.log{
+  color: #000;
+  height: 20px;
+  padding: 0;
+}
+
+.line{
+  width: 100px;
+  margin: 0;
+  margin-left: 1270px;
+  margin-top: 1px;
+}
+
+.desktop-home-page {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.banner-content {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  left: 170px;
+  top: 160px;
+  color: #444;
+  font-family: "San Francisco Text";
+}
+
+.banner-text h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.bnner-buttton-left {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  color: #444;
+  font-family: "San Francisco Text";
+}
+
+.bnner-buttton-right {
+  width: 30px;
+  height: auto;
+  position: absolute;
+  left: 1640px;
+  top: 200px;
+  color: #444;
+  font-family: "San Francisco Text";
+}
+
+.best-selling-gaming-pc {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-family: "San Francisco Text";
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 30px;
+  color: var(--black);
+}
+
+.cards_div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: 315px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--dark-gray);
+  border-radius: 10px;
+}
+
+.card:not(:last-of-type) {
+  margin-right: 30px;
+}
+
+.gaming_pc_card {
+  width: 300px;
+  height: 280px;
+  margin: 7px;
+}
+
+.card_info {
+  border-radius: 0px 0px 10px 10px;
+  padding: 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card_title {
+  height: 30.85%;
+  font-family: "San Francisco Text";
+  font-size: 22px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--black);
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.card_item_info {
+  height: 28.72%;
+  width: 320px;
+  font-family: "San Francisco Text";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--dark-gray);
+  display: flex;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.card_price {
+  height: 20.21%;
+  width: 29.38%;
+  font-family: "San Francisco Text";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  color: var(--black);
+  display: flex;
+  margin: 0px;
+}
+
+.second_bunner{
+  display: inline;
+  width: 100%; 
+  margin-bottom: 50px;
+  background-color: var(--medium-aquamarine);
+}
+
+.bunner_image{
+  display: inline;
+  width: 600px;
+  height: 400px;
+ 
+}
+
+.bunner_info{
+  display: inline;
+  font-family: "San Francisco Text";
+  width: 500px;
+}
+
+/* .bunner {
+  background-color: var(--medium-aquamarine);
+  position: relative;
+} */
+
+
+
+.banner_pc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--medium-aquamarine); /* Цвет фона */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 75%;
+  height: auto;
+  margin-left: 200px;
+}
+
+.text-container {
+  font-family: "San Francisco Text";
+  flex: 1;
+  max-width: 50%;
+  padding-left: 20px;
+  margin-left: 100px;
+}
+
+.text-container h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.text-container p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  width: 400px;
+}
+
+.text-container button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #000;
+  background-color: var(--medium-aquamarine);
+  border-radius: 6px;
+  border: 1px solid #000;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+
+hr {
+ margin-left: 170px;
+ width: 1350px;
+}
+
+body{
+  margin: 0;
+}
+
+footer {
+  margin-top: 0px;
+  width: 100%;
+  font-family: "San Francisco Text";
+  color: #333;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  padding-top: 40px;
+  /* border-top: 1px solid var(--dark-gray); */
+  margin-left: 150px;
+}
+
+.footer-columns {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  margin: 0 5px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-info {
+  font-size: 0.9em;
+}
+
+.footer-bottom {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline;
+}
